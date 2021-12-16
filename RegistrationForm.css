@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: burlywood;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;  
+    margin:0;  
+}
+
+.div{
+    box-sizing: border-box;
+    width: 100%;
+    border: 100px solid black;
+    float: left;
+    align-content: center;
+    align-items: center;
+
+}
+
+.form {   
+    margin: 0 auto;
+    width: 600p;
+}
