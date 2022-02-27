@@ -1,0 +1,325 @@
+
+
+.label2{
+    font-family:Montserrat;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
+
+.Komponentat{
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding: 30px;	
+}
+
+.Komp1{
+    padding: 15px;
+    width: 150px;
+    height: 218px;
+    font-family:Montserrat;
+    font-size: 17px;
+    text-align: center;
+    border-radius: 15px;
+    background-color:#A3EBB1(195,87,26);
+}
+
+.Komponentat2{
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding: 30px;
+}
+.Komp12{
+    padding: 15px;
+    width: 150px;
+    height: 200px;
+    font-family:Montserrat;
+    font-size: 17px;
+    text-align: center;
+    border-radius: 15px;
+    background-color:#A3EBB1(195,87,26);
+    margin-left: 25%;
+}
+
+
+.StaffUp{
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.Team1{
+    padding: 15px;
+    width: 180px;
+    height: 180px;
+    font-family:Montserrat;
+    font-size: 17px;
+    text-align: center;
+    border-radius: 50%;	
+    background-color:beige;
+}
+
+
+
+.StaffDown{
+    margin-top: 3%;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+
+@media screen and (max-width: 500px) {
+
+
+    .Komponentat{
+        margin-top: 2%;
+        margin-left: 5%;
+        margin-right: 5%;
+        width: 90%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 15px;	
+    }
+   
+
+    .Komp1{
+        padding: 15px;
+        width: 200px;
+        height: 235px;
+        margin: 10px;
+        font-family:Montserrat;
+        font-size: 20px;
+        text-align: center;
+        border-radius: 15px;
+        background-color:#A3EBB1(195,87,26);
+    }
+    
+
+
+    .Komponentat2{
+        margin-top: 2%;
+        margin-left: 5%;
+        margin-right: 5%;
+        width: 90%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 15px;	
+    }
+    .Komp12{
+        padding: 15px;
+        width: 200px;
+        height: 235px;
+        margin: 10px;
+        font-family:Montserrat;
+        font-size: 20px;
+        text-align: center;
+        border-radius: 15px;
+        background-color: #A3EBB1(195,87,26);
+    }
+
+
+    .StaffUp{
+        margin-top: 2%;
+        margin-left: 5%;
+        margin-right: 5%;
+        width: 90%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 30px;
+    }
+    
+    .Team1{
+        padding: 15px;
+        width: 180px;
+        height: 180px;
+        font-family:Montserrat;
+        font-size: 17px;
+        text-align: center;
+        border-radius: 50%;	
+        background-color:aqua;
+    }
+    
+}
+
+@media screen and (max-width: 600px) {
+
+
+    .Komponentat{
+        margin-top: 2%;
+        margin-left: 5%;
+        margin-right: 5%;
+        width: 90%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 15px;	
+    }
+   
+
+    .Komp1{
+        padding: 15px;
+        width: 200px;
+        height: 235px;
+        margin: 10px;
+        font-family:Montserrat;
+        font-size: 20px;
+        text-align: center;
+        border-radius: 15px;
+        background-color:#A3EBB1(195,87,26);
+    }
+    
+
+
+    .Komponentat2{
+        margin-top: 2%;
+        margin-left: 5%;
+        margin-right: 5%;
+        width: 90%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 15px;	
+    }
+    .Komp12{
+        padding: 15px;
+        width: 200px;
+        height: 235px;
+        margin: 10px;
+        font-family:Montserrat;
+        font-size: 20px;
+        text-align: center;
+        border-radius: 15px;
+        background-color: #A3EBB1;
+    }
+
+
+    .StaffUp{
+        margin-top: 2%;
+        margin-left: 5%;
+        margin-right: 5%;
+        width: 90%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 30px;
+    }
+    
+    .Team1{
+        padding: 15px;
+        width: 180px;
+        height: 180px;
+        font-family:Montserrat;
+        font-size: 17px;
+        text-align: center;
+        border-radius: 50%;	
+        background-color:#A3EBB1;
+    }
+    
+}
+
+@media screen and (max-width: 700px) {
+
+
+    .Komponentat{
+        margin-top: 2%;
+        margin-left: 5%;
+        margin-right: 5%;
+        width: 90%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 15px;	
+    }
+   
+
+    .Komp1{
+        padding: 15px;
+        width: 200px;
+        height: 235px;
+        margin: 10px;
+        font-family:Montserrat;
+        font-size: 20px;
+        text-align: center;
+        border-radius: 15px;
+        background-color: #A3EBB1;
+    }
+    
+
+
+    .Komponentat2{
+        margin-top: 2%;
+        margin-left: 5%;
+        margin-right: 5%;
+        width: 90%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 15px;	
+    }
+    .Komp12{
+        padding: 15px;
+        width: 200px;
+        height: 235px;
+        margin: 10px;
+        font-family:Montserrat;
+        font-size: 20px;
+        text-align: center;
+        border-radius: 15px;
+        background-color:#A3EBB1;
+    }
+
+
+    .StaffUp{
+        margin-top: 2%;
+        margin-left: 5%;
+        margin-right: 5%;
+        width: 90%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 30px;
+    }
+    
+    .Team1{
+        padding: 15px;
+        width: 180px;
+        height: 180px;
+        font-family:Montserrat;
+        font-size: 17px;
+        text-align: center;
+        border-radius: 50%;	
+        background-color:#A3EBB1;
+    }
+    
+}
