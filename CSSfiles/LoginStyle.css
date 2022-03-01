@@ -1,4 +1,4 @@
-.containerOne{
+/* .containerOne{
   width: 70%;
   margin-left: 15%;
   margin-right: 15%;
@@ -6,7 +6,7 @@
   margin-bottom: 1%;
   height: auto;
   padding: 15px;
-}
+} */
 
 .containerIn{
   width: 80%;
@@ -21,8 +21,9 @@
 
 
     .containerIn img{
-      width:190%;
+      width: 150%;
       height: 450px;
+      margin-top: 50px;
     }
     .containerIn form{
       width: 80%;
@@ -35,19 +36,19 @@
       flex-direction: column;
     }
 
-    .containerIn label{
+    /* .containerIn label{
       margin:10px;
       font-size: 20px;
       font-family: Arial, Helvetica, sans-serif;
       color:#A3EBB1(255, 180, 17) ;
       text-align: center;
-  }
+  } */
     .containerIn a{
       text-decoration: none;
       color: black;
-      font-size: 25px;
+      font-size: 15px;
       text-align: center;
-      margin-top: 3%;
+      margin-top:0;
       font-family: Arial, Helvetica, sans-serif;
     }
 
@@ -56,25 +57,33 @@
     }
 
     .containerIn b{
+      margin:auto ;
       text-align: center;
-      font-size: 40px;
+      font-size: 20px;
+      padding: 10px;
       font-family: 'Atkinson Hyperlegible', sans-serif;
+      margin-bottom: 0px;
   }
     .containerIn input{
       height: 40px;
+      margin-top: 15px;
     }
 
   .btn{
     background-color: #A3EBB1(255, 180, 17);
     border: none;
-    color: white;
-    padding: 15px 32px;
+    color: black;
+    padding: 10px;
     margin-top: 20px;
     height: inherit;
+    width: 250px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    align-items: center;
+    margin: auto;
+  
   }
 
 
@@ -92,12 +101,75 @@
       margin-bottom: 2%;
       display: flex;
       flex-direction: column;
+      
+      
     }
-
+/* 
     .containerIn b{
       font-size: 30px;
       font-family: 'Atkinson Hyperlegible', sans-serif;
+  } */
+
+  .forma {
+    align-items: center;
   }
-
-
+  .header {
+    overflow: hidden;
+    background-color:rgb(129, 123, 123);
+    padding: 20px 10px;
+    position: fixed;
+    width: 100%;
+    
+  
+  }
+  
+  
+  .header a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px; 
+    line-height: 25px;
+    border-radius: 4px;
+    font-family: 'Ubuntu', sans-serif;
+  }
+  
+  .header a.logo {
+    font-size: 35px;
+    font-weight: bold;
+    color: var(--green);
+  }
+  
+  .header a:hover {
+    background-color: #A3EBB1;
+    color: black;
+  }
+  
+  .header a.active {
+    background-color: rgb(33, 31, 32);
+    color: white;
+  }
+  
+  .header-right {
+    float: right;
+  }
+  
+  @media screen and (max-width: 500px) {
+  
+    .header{
+      position: relative;
+    }
+  
+    .header a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    
+    .header-right {
+      float: none;
+    }
+  }
   }

@@ -1,8 +1,7 @@
 <div class="header">	
 			<a class="logo">Travel</a>
 			<div class="header-right">
-			  <a class="active" href="#home">Home</a>
-			  <a href="#contact">Contact</a>
+
 			  <?php
 						                if(isset($_SESSION['role']) && $_SESSION['role'] == '1') {
 											?>
@@ -10,7 +9,11 @@
 										<?php
 										}
 					?>
-			  <a href="#Reklama">Advertise</a>
-			  <a href="#about">About</a>
+			  <a href="../HTMLfiles/index.html">Home</a>
+            <a href="../HTMLfiles/contact.php">Contact</a>
+            <a href="../HTMLfiles/Login.php">Login</a>
+            <a href="../HTMLfiles/Register.php">Register</a>
+            <a href="../HTMLfiles/adminPage.php">Admin</a>
+            <a href="../HTMLfiles/About us.html">About us</a>
 			</div>
 		</div>

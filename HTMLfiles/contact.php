@@ -2,7 +2,7 @@
 $servername = "localhost";
 $username = "root";
 $password = "";
-$dbname = "website_db";
+$dbname = "travel";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 
@@ -28,27 +28,27 @@ if ((isset($_POST['submit']))) {
 
 <head>
 	<title>Contact</title>
-	<link rel="stylesheet" type="text/css" href="Form.css">
+	<link rel="stylesheet" type="text/css" href="../CSSfiles/contact.css">
 	<link href="https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap" rel="stylesheet">
 </head>
 
 <body>
-	<div class="main">
-		<input type="checkbox" id="chk" aria-hidden="true">
+	<header>
+	
+	
+	</header>
+	
 
-		<div class="signup">
-			<form onsubmit="return validimi()" method="POST" enctype="multipart/form-data" action="contact.php">
-				<label for="chk" aria-hidden="true">Contact Form</label>
+		<div class="contact-container">
+			<form class="form-container" onsubmit="return validimi()" method="POST" enctype="multipart/form-data" action="contact.php">
+				<label for="chk" aria-hidden="true">Contact Us</label>
 				<input id="emri" required type="text" name="name" placeholder="Your Name">
 				<input type="email" required name="email" placeholder="Email">
 				<input id="mesazhi" required type="text" name="message" placeholder="Message">
 
-				<button type="submit" name="submit" value="send" ></button>
+				<button name="subject" type="submit" value="fav_CSS">Send</button>
 			</form>
 		</div>
-
-
-	</div>
 </body>
 
 </html>

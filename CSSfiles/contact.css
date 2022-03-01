@@ -1,0 +1,50 @@
+/* body{
+
+    background: url(https://www.airlinequality.com/wp-content/uploads/2019/06/about-us-image.jpg) no-repeat center;
+    background-size: cover;
+    background-repeat: no-repeat;
+} */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://travelislife.org/wp-content/uploads/public-domain-archive.jpg);
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.form-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+
+}
+.form-container input, button{
+    width: 400px;
+    margin: 10px;
+    padding: 10px;
+    color: black;
+    border: 1px white solid ;
+}
+.contact-container{
+    margin-left: 450px;
+    margin-top: 100px;
+    padding: 30px;
+    width: 36%;
+    background-color: rgb(207 230 230 / 60%);
+    height: 50%;
+}
+
+.form-container button{
+    width: 200px;
+    
+    
+}

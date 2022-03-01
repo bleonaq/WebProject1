@@ -30,6 +30,7 @@
     <?php
         include('../Re-Usable/header.php');
       ?>
+      
 
         <div class="containerOne">
 
@@ -37,18 +38,12 @@
                 <div>
                     <img src="../images/a.jpg">
                 </div>
-                <form action="../Logic/loginVerify.php" method="post">
+                <form action="../Logic/loginVerify.php" class="forma" method="post">
                     <b>
                         Login for Users
                     </b>
-                    <label>
-                        Username
-                    </label>
-                    <input required max="40" min="5" name="username">
-                    <label>
-                        Password
-                    </label>
-                    <input  max="400" min="16" type="password" name="password"> 
+                    <input required max="40" min="5" name="username" placeholder="Username">
+                    <input  max="400" min="16" type="password" name="password" placeholder="Password"> 
 
                     <input type="submit" value="Sign in" class="btn" name="login-btn">
 

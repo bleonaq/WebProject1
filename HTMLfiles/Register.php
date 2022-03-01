@@ -31,35 +31,27 @@
 
 
         <div class="regBox">
-            <div class="colorBox">
-                <!-- Empty Inside -->
-            </div>
+           
+            <div>
+                    <img src="../images/a.jpg">
+                </div>
             <div class="formBox">
-                <h3>
+                <span style="font-weight: bold;">
                     Register
-                </h3>
+                </span>
                 <form action="../Logic/loginVerify.php" method="post" onsubmit="return validateArr()">
-                    <b>
-                        Fields marked with * are required
-                    </b>
-                    <label>
-                        Username *
-                    </label>
-                    <input type="text" placeholder="Full name" name="username" id="username">
-                    <label>
-                        E-Mail *
-                    </label>
+                   
+                    <input type="text" placeholder="Username" name="username" id="username">
+                   
                     <input type="text" placeholder="Email" name="email" id="email">
-                    <label>
-                        Password *
-                    </label>
+                   
                     <input type="password" placeholder="Password" name="password" id="password">
                     <button name="registerBtn" id="submitBtn"  id="submitBtn">
                         Submit
                     </button>
                     <br/>
                     <button name="redirected" class="loginBtn">
-                        <a href="LoginUsers.php">Have an Acoount? Log in</a>
+                        <a href="Login.php">Already have an Account? <br> Log in</a>
                     </button>
                 </form>
 
