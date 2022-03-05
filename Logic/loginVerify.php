@@ -1,7 +1,7 @@
 <?php 
     include_once '../SuperClass/AdminUser.php';
-    include_once '../SuperClass/simpleUser.php';
-    include_once '..Mapper/UserMapper.php';
+    include_once '../SuperClass/SimpleUser.php';
+    include_once '../Logic/Mapper/UserMapper.php';
     
     session_start();
 
@@ -13,7 +13,7 @@
         $register->registerUser();
     }
      else {
-        header("Location:../HTMLfiles/index.html");
+        header("Location:../HTMLfiles/index.php");
     }
     
     class LoginLogic
@@ -67,10 +67,10 @@
             if ($user == null || count($user) == 0) return false;
             else if (password_verify($password, $user['password'])){
                 if ($user['role'] == 1) {
-                    $obj = new AdminUser($user['userid'], $user['username'], $user['password'],$user['email'], $user['role']);
+                    $obj = new AdminUser($user['userId'], $user['username'], $user['password'],$user['email'], $user['role']);
                     $obj->setSession();
                 } else {
-                    $obj = new SimpleUser($user['userid'], $user['username'], $user['password'], $user['role'], $user['email']);
+                    $obj = new SimpleUser($user['userId'], $user['username'], $user['password'], $user['role'], $user['email']);
                     $obj->setSession();
                 }
                 return true;
@@ -97,7 +97,7 @@
         }
 
         public function registerUser(){
-            $user=new SimpleUser($this->userid,$this->username,$this->email,$this->password,0);
+            $user=new SimpleUser($this->userId,$this->username,$this->email,$this->password,0);
             $mapper=new UserMapper;
             $mapper->insertUser($user);
 

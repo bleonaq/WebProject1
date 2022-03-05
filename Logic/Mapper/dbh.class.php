@@ -6,7 +6,7 @@ class Dbh
 
     private $host = "localhost";
     private $username = "root";
-    private $dbName = "travel";
+    private $dbName = "website_db";
     private $password = "";
 
     private function createConnection()

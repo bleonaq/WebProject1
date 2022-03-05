@@ -3,7 +3,7 @@
     $dbHost="localhost";
     $dbUser="root";
     $dbPass="";
-    $dbName="travel";
+    $dbName="website_db";
 
     $conn = mysqli_connect($dbHost,$dbUser,$dbPass,$dbName);
 

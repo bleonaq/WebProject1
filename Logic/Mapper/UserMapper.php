@@ -14,7 +14,7 @@ class UserMapper extends Dbh
 
     public function getUserByID($userId)
     {
-        $query="SELECT * from user where userid=:id";
+        $query="SELECT * from user where userid=:userId";
         $stmt=$this->conn->prepare($query);
         $stmt->bindParam(":id",$userId);
         $stmt->execute();
@@ -55,7 +55,7 @@ class UserMapper extends Dbh
         return $result;
     }
 
-    public function insertUser(\SimpleUser $user)
+    public function insertUser(SimpleUser $user)
     {
         $query="INSERT INTO user(username,password,email,role) VALUES(:name,:pass,:email,:role)";
 
@@ -72,7 +72,7 @@ class UserMapper extends Dbh
         $stmt->bindParam(":pass",$passwordEncrypted);
         $stmt->bindParam(":email",$email);
         $stmt->bindParam(":role",$role);
-        $stmt->execute();
+        
     }
 
     public function deleteUser($userId)
