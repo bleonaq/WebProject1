@@ -53,7 +53,7 @@
     }
 
     .containerIn a:hover{
-      color:#A3EBB1(255, 153, 0);
+      color:#A3EBB1;
     }
 
     .containerIn b{
@@ -70,7 +70,7 @@
     }
 
   .btn{
-    background-color: #A3EBB1(255, 180, 17);
+    background-color: #a1dbad;
     border: none;
     color: black;
     padding: 10px;

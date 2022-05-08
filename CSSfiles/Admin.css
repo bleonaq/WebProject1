@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+
+body {
+    background: rgba(61, 55, 55, 0.2);
+    margin: 0;
+}
+.admin-container {
+    color: white;
+    margin: 400px;
+    margin-top: 200px;
+    padding: 0.8rem 3rem;
+    font-size: 1.5rem;
+    color: #fff;
+    background: var(--green);
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.back-button {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.back-button span {
+    padding: 10px 20px;
+    border: 1px solid rgba(255,255,255,0.2);
+    font-size: 1.2rem;
+    font-family: 'Nunito', sans-serif;
+    color: #fff;
+    background: #86c091;
+    border-radius: 0.5rem;
+}
+.back-button span:hover {
+    background-color: rgba(255,255,255,0.2);
+    cursor: pointer;
+    color: #a3ebb1;
+    letter-spacing: .2rem;
+}
+.dashboard-container {
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+}
+.left-list {
+    flex: 1;
+    position: sticky;
+    top: 0;
+}
+.left-list .action-btn {
+    padding: 10px 20px;
+    margin: 15px;
+    cursor: pointer;
+    border: 1px solid rgba(255,255,255,0.2);
+    transition: all .3s ease;
+    background-color: #86c091;
+    font-family: 'Nunito', sans-serif;
+    border-radius: 0.5rem;
+}
+
+.left-list .action-btn:hover {
+    background-color: rgb(124, 121, 121);
+    cursor: pointer;
+    color: #a3ebb1;
+    letter-spacing: .2rem;
+}
+.logo{
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color:#a3ebb1;
+    text-transform: uppercase;
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    transition: all .2s linear;
+}
+.l1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #333;
+    z-index: 1000;
+    padding: 2rem 9%;
+}

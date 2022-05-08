@@ -2,7 +2,7 @@
 $servername = "localhost";
 $username = "root";
 $password = "";
-$dbname = "website_db";
+$dbname = "travel";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 
@@ -40,13 +40,13 @@ if ((isset($_POST['submit']))) {
 	
 
 		<div class="contact-container">
-			<form class="form-container" onsubmit="return validimi()" method="POST" enctype="multipart/form-data" action="contact.php">
+			<form class="form-container" method="POST" enctype="multipart/form-data" action="contact.php">
 				<label for="chk" aria-hidden="true">Contact Us</label>
 				<input id="emri" required type="text" name="name" placeholder="Your Name">
 				<input type="email" required name="email" placeholder="Email">
 				<input id="mesazhi" required type="text" name="message" placeholder="Message">
 
-				<button name="subject" type="submit" value="fav_CSS">Send</button>
+				<button name="submit" type="submit" value="fav_CSS">Send</button>
 			</form>
 		</div>
 </body>
@@ -54,18 +54,18 @@ if ((isset($_POST['submit']))) {
 </html>
 
 <script>
-	function validimi() {
-		var emri = document.getElementsByClassName("input")[1].value;
-		var email = document.getElementsByClassName("input")[2].value;
-		var mesazhi = document.getElementsByClassName("input")[3].value;
-		console.error(emri.value);
-		console.log(email);
-		console.log(mesazhi);
-		if (emri == "" || email == "" || mesazhi == "") 
-		{
-			alert("mbushini hapesirat");
-			return false;
-		}
+	// function validimi() {
+	// 	var emri = document.getElementsByClassName("input")[1].value;
+	// 	var email = document.getElementsByClassName("input")[2].value;
+	// 	var mesazhi = document.getElementsByClassName("input")[3].value;
+	// 	console.error(emri.value);
+	// 	console.log(email);
+	// 	console.log(mesazhi);
+	// 	if (emri == "" || email == "" || mesazhi == "") 
+	// 	{
+	// 		alert("mbushini hapesirat");
+	// 		return false;
+	// 	}
 		
-	}
+	// }
 </script>

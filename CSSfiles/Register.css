@@ -71,7 +71,7 @@
         }
 
 #submitBtn{
-    background-color: #A3EBB1(255, 180, 17);
+    background-color: #A3EBB1;
     border: none;
     color: black;
     padding: 10px;
@@ -88,7 +88,7 @@
 }
 
 .loginBtn{
-    background-color: #A3EBB1(255, 180, 17);
+    background-color: #A3EBB1;
     border: none;
     color: black;
     padding: 10px;

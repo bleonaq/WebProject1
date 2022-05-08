@@ -1,5 +1,5 @@
 <?php
-include_once 'dbh.class.php';
+require 'dbh.class.php';
 
 class UserMapper extends Dbh
 {
